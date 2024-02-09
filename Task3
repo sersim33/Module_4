@@ -1,0 +1,16 @@
+def get_grade(key):
+    grades = {
+    '1': 'F',
+    '2': 'FX',
+    '3': 'E',
+    '3': 'D',
+    '4': 'C',
+    '5': 'B',
+    '5': 'A',
+}
+    for val in grades.values():
+        print (val)
+
+    return (val)
+    
+get_grade(['3'])
