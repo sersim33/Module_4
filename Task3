@@ -1,16 +1,15 @@
 def get_grade(key):
-    key = {
-    'F' : '1',
-    'FX' : '2',
-    'E' : '3',
-    'D' : '3',
-    'C' : '4',
-    'B' : '5',
-    'A' : '5'
-}
-    for val in key.values():
-        print (val)
+    data = {
+    'F' : 1,
+    'FX' : 2,
+    'E' : 3,
+    'D' : 3,
+    'C' : 4,
+    'B' : 5,
+    'A' : 5
+}   
+    for values in data:
+        result = int(data.get(key))
+        print (result)
 
-    return (key)
-
-get_grade ([''])
+    return (result)
