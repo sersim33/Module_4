@@ -9,8 +9,8 @@ def get_grade(key):
     'A' : '5'
 }
     for val in key.values():
-        print (key)
+        print (val)
 
     return (key)
 
-get_grade ()
+get_grade ([''])
